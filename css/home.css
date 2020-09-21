@@ -1,0 +1,145 @@
+body {
+    background-color: #242424;
+    color: #ebebeb;
+    text-align: center;
+}
+
+#home-main {
+    background-color: #242424;
+    height: 100%;
+}
+
+.home-title-container {
+    margin-top: 60px;
+}
+
+.home-title-image {
+    width: 60px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+.home-title-headline {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 15px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+@keyframes fadein {
+    from {
+        opacity:0.1;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0.1;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0.1;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.category-container {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    display: -webkit-flex;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.category-item {
+    flex: 1;
+    background-color: transparent;
+    height: 400px;
+    position: relative;
+    margin: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+@media only screen and (max-width: 760px) {
+    .category-container {
+        display: block;
+    }
+    .category-item {
+        flex: none;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .category-container {
+        display:block;
+   }
+}
+
+.category-item:hover {
+    overflow: hidden;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 70px rgba(0,0,0,.6)
+}
+
+.category-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.category-item-image {
+    background-size: cover;
+    background-position: center;
+    filter: brightness(.5);
+    width: 100%;
+    height: 100%;
+}
+
+.category-item-image.algorithm {
+    background-image: url('../assets/images/home-algorithm.png');
+}
+
+.category-item-image.certi {
+    background-image: url('../assets/images/home-certification.png');
+}
+
+.category-item-image.myhobby {
+    background-image: url('../assets/images/home-hobby.png');
+}
+
+.category-item-title {
+    font-weight: 500;
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

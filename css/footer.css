@@ -1,0 +1,15 @@
+#globalfooter {
+    width: 100%;
+    height: 200px;
+    background-color: #171717;
+    text-align: center;
+}
+
+.gf-copy {
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ababab;
+    top: 50%;
+    transform: translateY(-50%);
+}

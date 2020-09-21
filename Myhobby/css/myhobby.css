@@ -1,0 +1,17 @@
+#hobby-main {
+    padding-top: 50px;
+}
+
+.hobby-title {
+    margin-top: 60px;
+}
+
+.hobby-copy {
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 540px;
+    line-height: 1.4;
+    padding: 0 15px;
+    box-sizing: border-box;
+}

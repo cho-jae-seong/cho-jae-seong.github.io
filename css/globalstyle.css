@@ -1,0 +1,108 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'CJS', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+
+    background-color: #242424;
+    color: #ebebeb;
+    text-align: center;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+.manifesto-hero {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.manifesto-headline {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.manifesto-article {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.article-container {
+    margin-top: 100px;
+}
+
+.All-article {
+    width: 100%;
+    padding: 50px 15px;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    font-size: 0;
+    background: #141414; /* Old browsers */
+    background: -moz-linear-gradient(top, #2a2a2a 0%, #242424 100%);
+    background: -webkit-linear-gradient(top, #2a2a2a 0%,#242424 100%);
+    background: linear-gradient(to bottom, #2a2a2a 0%,#242424 100%);
+}
+
+.ha-wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+.ha-image {
+    width: calc(40% - 60px);
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.ha-copy {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+@media only screen and (max-width: 760px) {
+    .ha-image {
+        margin: 0;
+        margin: auto;
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .ha-copy {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.go-home {
+    width: 100%;
+    padding: 30px 0;
+    background-color: #2f2f2f;
+}
+
+.gh-link {
+    margin: 30px 0;
+    color: #008de7;
+    text-decoration: none;
+}
+
+.gh-link:hover {
+    color: #009cff;
+}

@@ -1,0 +1,48 @@
+#Algorithm-main {
+    padding-top: 50px;
+}
+
+.im-title {
+    padding-top: 60px;
+}
+
+.im-copy {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.All-article.Github {
+    position: relative;
+}
+
+.Algorithm-copy {
+    width: 100%;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    max-width: 500px;
+    margin: auto;
+}
+
+.Github-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(.4);
+}
+
+.text-wrapper {
+    position: relative;
+    z-index: 100;
+}
+
+.All-article.Github {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
